@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Réservation</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">AIR UVCI</a>
+            <div class="navbar">
+                <a href="accueil.html">ACCUEIL</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="reservation.html">RESERVEZ ICI</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="form_container">
+            <h2>Réservez votre vol</h2>
+            <form action="confirmation.html">
+                <label for="name">NOM</label>
+                <input type="text" id="name" placeholder="nom">
+                <label for="prnom">PRENOM :</label>
+                <input type="text" id="prnom" placeholder="prenom">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail">
+                <label for="number">Numero de Tel</label>
+                <input type="tel" id="number" placeholder="ex:+2250575144764">
+                <!-- Vers : Champ pour indiquer le lieu d'arrivée -->
+                <label for="destination">DESTINATION</label>
+                <select name="destination" id="destination">
+                    <option value="" disabled selected>Choississez votre destination</option>
+                    <option value="FRANCE">FRANCE (paris)</option>
+                    <option value="CÔTE d'IVOIRE">CÔTE D'IVOIRE (abidjan)</option>
+                    <option value="BELGIQUE">BELGIQUE (bruxelles)</option>
+                    <option value="ANGLETERRE">ANGLETERRE (londre)</option>
+                    <option value="RUSSIE">RUSSIE (moscou)</option>
+                    <option value="PORTUGL">PORTUGL (lisbonne)</option>
+                    <option value="USA">USA (washington)</option>
+                    <option value="BRESIL">BRESIL (brasilia)</option>
+                    <option value="ALLEMANGNE">ALLEMANGNE (berlin)</option>
+                    <option value="PAYS-BAS">PAYS-BAS (amsterdam)</option>
+                </select>
+                <label for="date-vol">Date du vol :</label>
+                <input type="date" id="date-vol">
+                <label for="passengers">Nombre de passagers :</label>
+                <input type="number" id="passengers" min="1" value="1">
+                <button type="submit">Confirmer la reservation</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

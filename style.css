@@ -1,0 +1,89 @@
+body{
+    background-image: url("img/060575419908-web-tete.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+}
+.logo{
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);/*Effet de profondeur*/
+    text-decoration: none;
+    border-image: linear-gradient(to right, #87CEEB, #1E90FF) 1;
+    border-radius: 8px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 15px;
+}
+.navbar a:hover{
+    text-decoration: solid;
+    opacity: 0.5;
+}
+main{
+    margin-left: 30%;
+}
+
+.form_container{
+      padding: 25px;
+      background-image: url(img/060575419908-web-tete.jpg);
+      width: 50%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin-bottom: 10px;
+}
+.form_container h2{
+    
+    color: #107fee;
+    font-size: 2Opx;
+    text-shadow: 0 2px 4px rgba(197, 211, 216, 0.6);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-weight: bold;
+    color: #ffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+input, select, button{
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+button{
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #1E90FF;
+    color: #ffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 23px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #109deea4;
+}

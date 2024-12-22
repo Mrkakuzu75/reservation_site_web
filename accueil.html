@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ACCUEIL</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">AIR UVCI</a>
+            <div class="navbar">
+                <a href="accueil.html">ACCUEIL</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="reservation.html">RESERVEZ ICI</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="form_container">
+            <h1>Trouvez votre prochain vol au meilleur prix</h1>
+            <form class="form_accueil">
+                <!-- De : Champ pour indiquer le lieu de départ -->
+                
+                    <label for="depart">DEPART</label><div>
+                    <select name="depart" id="depart" required>
+                        <option value="" disabled selected>Choississez</option>
+                        <option value="FRANCE">FRANCE (paris)</option>
+                        <option value="CÔTE d'IVOIRE">CÔTE D'IVOIRE (abidjan)</option>
+                        <option value="BELGIQUE">BELGIQUE (bruxelles)</option>
+                        <option value="ANGLETERRE">ANGLETERRE (londre)</option>
+                        <option value="RUSSIE">RUSSIE (moscou)</option>
+                        <option value="PORTUGL">PORTUGL (lisbonne)</option>
+                        <option value="USA">USA (washington)</option>
+                        <option value="BRESIL">BRESIL (brasilia)</option>
+                        <option value="ALLEMANGNE">ALLEMANGNE (berlin)</option>
+                        <option value="PAYS-BAS">PAYS-BAS (amsterdam)</option>
+                    </select>
+                </div>
+                <!-- Vers : Champ pour indiquer le lieu d'arrivée -->
+                <div>
+                    <label for="destination">DESTINATION</label>
+                    <select name="destination" id="destination" required>
+                        <option value="" disabled selected>Choississez votre destination</option>
+                        <option value="FRANCE">FRANCE (paris)</option>
+                        <option value="CÔTE d'IVOIRE">CÔTE D'IVOIRE (abidjan)</option>
+                        <option value="BELGIQUE">BELGIQUE (bruxelles)</option>
+                        <option value="ANGLETERRE">ANGLETERRE (londre)</option>
+                        <option value="RUSSIE">RUSSIE (moscou)</option>
+                        <option value="PORTUGL">PORTUGL (lisbonne)</option>
+                        <option value="USA">USA (washington)</option>
+                        <option value="BRESIL">BRESIL (brasilia)</option>
+                        <option value="ALLEMANGNE">ALLEMANGNE (berlin)</option>
+                        <option value="PAYS-BAS">PAYS-BAS (amsterdam)</option>
+                    </select>
+                </div>
+                <!-- Dates de voyage -->
+                <div class="modifier">
+                    <label for="date-depart">Date de départ :</label>
+                    <input type="date" id="date-depart" required>
+                </div>
+                <div class="modifier">
+                    <label for="date-retour">Date de retour :</label>
+                    <input type="date" id="date-retour" required>
+                </div>
+                <!-- Nombre de passagers -->
+                <div class="modifier">
+                    <label for="passengers">Nombre de passagers :</label>
+                    <input type="number" id="passengers" min="1" value="1" required>
+                </div>
+                <!-- Bouton de recherche -->
+                <button type="submit">Rechercher un vol </button>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
